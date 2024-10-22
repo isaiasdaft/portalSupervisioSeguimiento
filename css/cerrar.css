@@ -1,0 +1,36 @@
+/* Nueva animación al cerrar sesión - Desvanecimiento */
+body.logged-out:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2f3330;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 1s ease; /* Transición de desvanecimiento */
+    z-index: 9999;
+}
+
+body.logged-out:after {
+    content: "Cerrando sesión...";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0; /* Inicialmente invisible */
+    transition: opacity 1s ease; /* Transición de desvanecimiento */
+    z-index: 10000;
+}
+
+body.logged-out.logged-out-effect:before {
+    opacity: 1;
+}
+
+body.logged-out.logged-out-effect:after {
+    opacity: 1;
+}

@@ -1,0 +1,14 @@
+/* styles.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Aplicar la animación a un elemento específico, como el menú de inicio */
+  #menuInicio {
+    animation: fadeIn 1s ease-in-out;
+  }

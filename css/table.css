@@ -1,0 +1,6 @@
+.table td {
+    max-width: 120px; /* Establece un ancho máximo para las celdas, ajusta según tus necesidades */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Agrega elipsis (...) para indicar contenido truncado */
+}
+

@@ -1,0 +1,18 @@
+/* Transición de color al hacer hover y clic */
+.navbar-nav a {
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: rgba(168, 234, 241, 0.5); /* Agrega una sombra por defecto */
+}
+
+/* Efecto de desvanecimiento y sombra al hacer hover */
+.navbar-nav a:hover {
+    color: rgb(4, 173, 89); /* Cambia el color al hacer hover */
+    opacity: 0.8; /* Desvanecimiento */
+    box-shadow: 0 0 10px rgba(168, 234, 241, 0.5); /* Aumenta la sombra al hacer hover */
+}
+
+/* Efecto de color pulsante al hacer clic */
+.navbar-nav a:active {
+    color: #19445e; /* Cambia el color al hacer clic */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Aumenta la sombra al hacer clic */
+}

@@ -1,0 +1,73 @@
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: #0e8b2d;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #0e8b2d;
+  }
+  
+  input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+
+  .navbar-nav .nav-link {
+    color: green;
+}
+
+
+h3{
+  color: #37423a;
+}
+
+h2{
+  color: #1f2630;
+}
+
+.custom-bg-color {
+  background-color: #FF5733; /* Reemplaza #FF5733 con el color que desees */
+}
+
+.custom-text-color {
+  color: #000000; /* Reemplaza #000000 con el color que desees para el texto */
+}
+
+.custom-btn {
+  color: #FF5733; /* Reemplaza #FF5733 con el color que desees para el texto del botón */
+}
+
+#tablaPendientes thead {
+  background-color: #1F6157;
+  color: white; /* Cambia el color del texto si es necesario para que sea visible en el nuevo fondo */
+}
+
+#navbar {
+  background-color: #1F6157;
+  background-image: url('../../img/logo3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agregar sombra a la imagen */
+  /* ... otros estilos de tu navbar */
+}
